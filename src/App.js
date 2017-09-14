@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header'
 import Order from './components/Order'
@@ -10,7 +9,7 @@ class App extends Component {
     return (
       <div id="main">
         <div className="menu">
-          <Header />
+          <Header tagline='Fresh Seafood Market' />
         </div>
         <Order />
         <Inventory />
